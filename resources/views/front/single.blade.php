@@ -66,9 +66,9 @@
     <br/>
     <br/>
     <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
-      <img src="{{ asset('front/img/devlupsoft.jpg') }}" style="width: 150px; border-radius: 25px" class="img-fluid" alt="Devlupsoft L&D">
+      <img src="{{ asset('front/img/devlupsoft.jpg') }}" style="width: 150px; border-radius: 25px" class="img-fluid" alt="Devlupsoft Technologies">
       <h2>Welcome to <span>Devlupsoft L&D</span></h2>
-      <p>The L&D program at Devlupsoft would be a combination of lectures, hands-on coding exercises, real-world projects, and mentorship to ensure a well-rounded and practical understanding of full stack development. It should empower individuals to not only write code but also design scalable and maintainable applications while adhering to industry best practices.</p>
+      <p>The learning and development program (L&D) at Devlupsoft would be a combination of lectures, hands-on coding exercises, real-world projects, and mentorship to ensure a well-rounded and practical understanding of full stack development. It should empower individuals to not only write code but also design scalable and maintainable applications while adhering to industry best practices.</p>
       <div class="d-flex">
         <a href="#contact" class="btn-get-started scrollto">Get Started</a>
         <a href="https://www.youtube.com/watch?v=DvKDBH7bwbk" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
@@ -825,7 +825,7 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="footer-info">
-              <h3>Devlupsoft L&D</h3>
+              <h3>Devlupsoft</h3>
               <p>
                Delhi <br>
                 DL, India, 110085<br><br>
@@ -866,7 +866,7 @@
 
         <div class="d-flex flex-column align-items-center align-items-lg-start">
           <div class="copyright">
-            &copy; Copyright <strong><span>Devlupsoft L&D</span></strong>. All Rights Reserved
+            &copy; Copyright <strong><span>Devlupsoft Technologies</span></strong>. All Rights Reserved
           </div>
           <div class="credits">
             <a href="https://www.devlupsoft.com/">Devlupsoft Technologies Private Limited</a>
