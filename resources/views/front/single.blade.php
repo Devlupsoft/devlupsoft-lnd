@@ -349,7 +349,8 @@
 
             <div class="col-lg-8">
                 {{-- Change are required for lead generation --}}
-                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <form action="{{ url('quick-connect') }}" method="post" role="form" class="php-email-form">
+                    <input type="hidden" name="_token" value="{{ csrf_token() }}" />
                   <div class="row">
                     <div class="col-md-6 form-group">
                       <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -370,7 +371,8 @@
                   <div class="my-3">
                     <div class="loading">Loading</div>
                     <div class="error-message"></div>
-                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                    {{-- <div class="sent-message">Your message has been sent. Thank you!</div> --}}
+                    <div class="sent-message">Please scan whatsApp group for prompt updates. Thank you!</div>
                   </div>
                   <div class="text-center"><button type="submit">Enroll Now</button></div>
                 </form>

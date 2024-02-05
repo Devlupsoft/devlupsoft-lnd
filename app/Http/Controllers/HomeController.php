@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Helpers\Qs;
 use App\Repositories\UserRepo;
+use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
@@ -22,6 +23,25 @@ class HomeController extends Controller
     public function home()
     {
         return view('front.single', []);
+    }
+
+    public function enroll(Request $request)
+    {
+        // validate input
+        // $this->validate($request,[
+        //     'phone'=>'required|max:8',
+        //     'name'=>'required',
+        //     'email'=>'required'
+        //  ]);
+
+        // save to database
+
+        // send mail queue
+
+        // exit
+        // exit(json_encode(['status'=>0]));
+        exit('OK');
+
     }
 
     public function privacy_policy()

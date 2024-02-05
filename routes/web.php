@@ -8,6 +8,7 @@ Route::get('/terms-of-use', 'HomeController@terms_of_use')->name('terms_of_use')
 
 Route::get('/', 'HomeController@home')->name('home');
 Route::get('/home', 'HomeController@home')->name('home');
+Route::post('/quick-connect', 'HomeController@enroll')->name('quick-connect');
 
 Route::group(['middleware' => 'auth'], function () {
 
