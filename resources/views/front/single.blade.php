@@ -53,7 +53,7 @@
         {{-- <i class="bi bi-list mobile-nav-toggle d-none"></i> --}}
       </nav><!-- .navbar -->
 
-      <a class="btn-getstarted scrollto" href="#about">Get Started</a>
+      <a class="btn-getstarted scrollto" href="/login">Login</a>
 
     </div>
   </header><!-- End Header -->
@@ -151,7 +151,7 @@
 
               <div class="pricing-header">
                 <h3>Corporate Plan</h3>
-                <h4><sup>₹</sup>9999<span> / user</span><span> / month</span></h4>
+                <h4><sup>₹</sup>7999<span> / user</span><span> / month</span></h4>
               </div>
 
               <ul>
@@ -174,7 +174,7 @@
 
               <div class="pricing-header">
                 <h3>Developer Plan</h3>
-                <h4><sup>₹</sup>7999<span> / month</span></h4>
+                <h4><sup>₹</sup>9999<span> / month</span></h4>
               </div>
 
               <ul>
@@ -309,7 +309,43 @@
 
       <div class="container">
 
+
         <div class="row gy-5 gx-lg-5">
+
+            <div class="col-lg-4">
+
+                <div class="info">
+                  <h3>Quick Enroll</h3>
+                  <img src="{{ asset('front/img/QR-devlupsoft.jpg') }}" width="250px" />
+                  <p>Any query or suggestions, Please feal free to contact us.</p>
+
+                  <div class="info-item d-flex">
+                    <i class="bi bi-geo-alt flex-shrink-0"></i>
+                    <div>
+                      <h4>Location:</h4>
+                      <p>Sec - 5, Rohini, Delhi, IN - 110085</p>
+                    </div>
+                  </div><!-- End Info Item -->
+
+                  <div class="info-item d-flex">
+                    <i class="bi bi-envelope flex-shrink-0"></i>
+                    <div>
+                      <h4>Email:</h4>
+                      <p>lnd@devlupsoft.com</p>
+                    </div>
+                  </div><!-- End Info Item -->
+
+                  <div class="info-item d-flex">
+                    <i class="bi bi-phone flex-shrink-0"></i>
+                    <div>
+                      <h4>Call:</h4>
+                      <p>+91 9693087681</p>
+                    </div>
+                  </div><!-- End Info Item -->
+
+                </div>
+
+              </div>
 
             <div class="col-lg-8">
                 {{-- Change are required for lead generation --}}
@@ -340,40 +376,6 @@
                 </form>
               </div><!-- End Contact Form -->
 
-          <div class="col-lg-4">
-
-            <div class="info">
-              <h3>Get in touch</h3>
-              <p>Any query or suggestions, Please feal free to contact us.</p>
-
-              <div class="info-item d-flex">
-                <i class="bi bi-geo-alt flex-shrink-0"></i>
-                <div>
-                  <h4>Location:</h4>
-                  <p>Sec - 5, Rohini, Delhi, IN - 110085</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="info-item d-flex">
-                <i class="bi bi-envelope flex-shrink-0"></i>
-                <div>
-                  <h4>Email:</h4>
-                  <p>lnd@devlupsoft.com</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="info-item d-flex">
-                <i class="bi bi-phone flex-shrink-0"></i>
-                <div>
-                  <h4>Call:</h4>
-                  <p>+91 9693087681</p>
-                </div>
-              </div><!-- End Info Item -->
-
-            </div>
-
-          </div>
-
         </div>
 
       </div>
@@ -390,10 +392,9 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="footer-info">
-              <h3>Devlupsoft</h3>
+              <h3>Devlupsoft L&D</h3>
               <p>
-               Delhi <br>
-                DL, India, 110085<br><br>
+                Noida UP, India, 110085<br><br>
                 <strong>Phone:</strong> +91 9693087681<br>
                 <strong>Email:</strong> lnd@devlupsoft.com<br>
               </p>
