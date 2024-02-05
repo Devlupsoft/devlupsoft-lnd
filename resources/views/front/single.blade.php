@@ -45,8 +45,8 @@
       <nav id="navbar" class="navbar">
         <ul>
 
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          {{-- <li><a class="nav-link scrollto" href="#about">About</a></li> --}}
+          <li><a class="nav-link scrollto" href="#services">Trainings</a></li>
           {{-- <li><a href="blog.html">Blog</a></li> --}}
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
@@ -81,8 +81,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Our Services</h2>
-          <p>Ea vitae aspernatur deserunt voluptatem impedit deserunt magnam occaecati dssumenda quas ut ad dolores adipisci aliquam.</p>
+          <h2>Our Trainings</h2>
+          <p>Unlock the full spectrum of expertise in our comprehensive Full Stack Training Program at Devlupsoft. Dive deep into front-end and back-end development, master databases, deploy on the cloud, and gain the skills needed for end-to-end web application development. </p>
         </div>
 
         <div class="row gy-5">
@@ -90,16 +90,16 @@
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
             <div class="service-item">
               <div class="img">
-                <img src="{{ asset('front/img/services-1.jpg') }}" class="img-fluid" alt="">
+                <img src="{{ asset('front/img/services-1.jpg') }}" class="img-fluid" alt="Full Stack development">
               </div>
               <div class="details position-relative">
                 <div class="icon">
                   <i class="bi bi-activity"></i>
                 </div>
-                <a href="#" class="stretched-link">
-                  <h3>Nesciunt Mete</h3>
+                <a href="#contact" class="stretched-link">
+                  <h3>Full Stack Development</h3>
                 </a>
-                <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis.</p>
+                <p>Enroll now to embark on a holistic journey towards becoming a proficient Full Stack Developer!</p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -116,7 +116,9 @@
 
         <div class="section-header">
           <h2>Our Pricing</h2>
-          <p>Architecto nobis eos vel nam quidem vitae temporibus voluptates qui hic deserunt iusto omnis nam voluptas asperiores sequi tenetur dolores incidunt enim voluptatem magnam cumque fuga.</p>
+          <p>Seize the opportunity to revolutionize your skills in our Full Stack Training Program at Devlupsoft.
+            Enroll now for a transformative learning experience, select a plan as per you requirements.
+            Don't miss out on this chance to elevate your career—take the first step today!</p>
         </div>
 
         <div class="row gy-4">
@@ -126,15 +128,15 @@
 
               <div class="pricing-header">
                 <h3>Basic Plan</h3>
-                <h4><sup>₹</sup>1999<span> / month</span></h4>
+                <h4><sup>₹</sup>4999<span> / month</span></h4>
               </div>
 
               <ul>
-                <li><i class="bi bi-dot"></i> <span>Free plan one</span></li>
-                <li><i class="bi bi-dot"></i> <span>Free plan two</span></li>
-                <li><i class="bi bi-dot"></i> <span>Free plan three</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Not in free plan</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Not in free plan</span></li>
+                <li><i class="bi bi-dot"></i> <span>One Tech stack (FE or BE)</span></li>
+                <li><i class="bi bi-dot"></i> <span>Hands-on training</span></li>
+                <li><i class="bi bi-dot"></i> <span>Course materials</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Cloud Services</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Certification</span></li>
               </ul>
 
               <div class="text-center mt-auto">
@@ -149,17 +151,15 @@
 
               <div class="pricing-header">
                 <h3>Corporate Plan</h3>
-                <h4><sup>₹</sup>14999<span> / user</span><span> / month</span></h4>
+                <h4><sup>₹</sup>9999<span> / user</span><span> / month</span></h4>
               </div>
 
               <ul>
-                <li><i class="bi bi-dot"></i> <span>Corporate Plan one</span></li>
-                <li><i class="bi bi-dot"></i> <span>Corporate Plan two</span></li>
-                <li><i class="bi bi-dot"></i> <span>Corporate Plan three</span>
-                </li>
-                <li><i class="bi bi-dot"></i> <span>Corporate Plan four</span>
-                </li>
-                <li><i class="bi bi-dot"></i> <span>Corporate Plan five</span></li>
+                <li><i class="bi bi-dot"></i> <span>Full Stack</span></li>
+                <li><i class="bi bi-dot"></i> <span>Hands-on training</span></li>
+                <li><i class="bi bi-dot"></i> <span>Course materials</span></li>
+                <li><i class="bi bi-dot"></i> <span>Cloud Services</span></li>
+                <li><i class="bi bi-dot"></i> <span>Certification</span></li>
               </ul>
 
               <div class="text-center mt-auto">
@@ -178,11 +178,11 @@
               </div>
 
               <ul>
-                <li><i class="bi bi-dot"></i> <span>Developer Plan one</span></li>
-                <li><i class="bi bi-dot"></i> <span>Developer Plan two</span></li>
-                <li><i class="bi bi-dot"></i> <span>Developer Plan three</span></li>
-                <li><i class="bi bi-dot"></i> <span>Developer Plan four</span></li>
-                <li><i class="bi bi-dot"></i> <span>Developer Plan five</span></li>
+                <li><i class="bi bi-dot"></i> <span>Full stack</span></li>
+                <li><i class="bi bi-dot"></i> <span>Hands-on training</span></li>
+                <li><i class="bi bi-dot"></i> <span>Course materials</span></li>
+                <li><i class="bi bi-dot"></i> <span>Cloud Services</span></li>
+                <li><i class="bi bi-dot"></i> <span>Certification</span></li>
               </ul>
 
               <div class="text-center mt-auto">
@@ -323,17 +323,20 @@
                     </div>
                   </div>
                   <div class="form-group mt-3">
-                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                    <input type="tel" class="form-control" name="phone" id="phone" placeholder="Phone" required>
                   </div>
+                  {{-- <div class="form-group mt-3">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                  </div> --}}
                   <div class="form-group mt-3">
-                    <textarea class="form-control" name="message" placeholder="Message" required></textarea>
+                    <textarea class="form-control" name="message" placeholder="Message (if any)"></textarea>
                   </div>
                   <div class="my-3">
                     <div class="loading">Loading</div>
                     <div class="error-message"></div>
                     <div class="sent-message">Your message has been sent. Thank you!</div>
                   </div>
-                  <div class="text-center"><button type="submit">Send Message</button></div>
+                  <div class="text-center"><button type="submit">Enroll Now</button></div>
                 </form>
               </div><!-- End Contact Form -->
 
@@ -341,7 +344,7 @@
 
             <div class="info">
               <h3>Get in touch</h3>
-              <p>If query or suggestion, Please feal free to contact us.</p>
+              <p>Any query or suggestions, Please feal free to contact us.</p>
 
               <div class="info-item d-flex">
                 <i class="bi bi-geo-alt flex-shrink-0"></i>
@@ -401,8 +404,8 @@
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bi bi-chevron-right"></i> <a href="/">Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+              {{-- <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li> --}}
+              <li><i class="bi bi-chevron-right"></i> <a href="#services">Trainings</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="/terms-of-use">Terms of service</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="/privacy-policy">Privacy policy</a></li>
             </ul>
@@ -411,11 +414,11 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Connect</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Learn Graphic Design</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Learn Web Design</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Learn Web Development</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Learn DevOps</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Learn Digital Marketing</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#contact">Learn Graphic Design</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#contact">Learn Web Design</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#contact">Learn Web Development</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#contact">Learn DevOps</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#contact">Learn Digital Marketing</a></li>
             </ul>
           </div>
 
@@ -428,7 +431,9 @@
 
         <div class="d-flex flex-column align-items-center align-items-lg-start">
           <div class="copyright">
-            &copy; Copyright <strong><span>Devlupsoft Technologies</span></strong>. All Rights Reserved
+            &copy; Copyright <strong>
+                <span>Devlupsoft Technologies (CIN: U74999DL2016PTC308987)</span>
+            </strong>. All Rights Reserved
           </div>
           <div class="credits">
             <a href="https://www.devlupsoft.com/">Devlupsoft Technologies Private Limited</a>

@@ -214,7 +214,7 @@
 
                                 <p>This website is operated by {{ $app_name }}.</p>
 
-                                <p>All other feedback, comments, requests for technical support and other communications relating to the Website should be directed to the School Administrator. Please call {{ $contact_phone }}</p>
+                                <p>All other feedback, comments, requests for technical support and other communications relating to the Website should be directed to the Administrator. Please call {{ $contact_phone }}</p>
                             </div>
                         </div>
                     </div>
