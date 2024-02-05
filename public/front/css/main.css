@@ -242,12 +242,12 @@ section {
 }
 @media (max-width: 1279px) {
   .header .btn-getstarted, .header .btn-getstarted:focus {
-    margin-right: 50px;
+    /* margin-right: 50px; */
   }
 }
 
 /*--------------------------------------------------------------
-# Desktop Navigation 
+# Desktop Navigation
 --------------------------------------------------------------*/
 @media (min-width: 1280px) {
   .navbar {
@@ -2770,4 +2770,13 @@ section {
 .footer .footer-legal .social-links a:hover {
   background: var(--color-primary);
   text-decoration: none;
+}
+
+@media (max-width: 1280px) {
+    .header .logo h1 {
+        font-size: 20px;
+        font-weight: 300;
+        color: var(--color-secondary);
+        font-family: var(--font-secondary);
+    }
 }
