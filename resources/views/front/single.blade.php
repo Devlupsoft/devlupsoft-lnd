@@ -30,6 +30,8 @@
   <!-- Template Main CSS File -->
   <link href="{{ asset('front/css/main.css') }}" rel="stylesheet">
 
+  <script >var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();(function(){var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];s1.async=true;s1.src='https://embed.tawk.to/5a3111a2bbdfe97b137fb65e/default';s1.charset='UTF-8';s1.setAttribute('crossorigin','*');s0.parentNode.insertBefore(s1,s0);})(); </script> <script >_atrk_opts={atrk_acct:"IBRPq1kx0820/9", domain:"devlupsoft.com",dynamic: true};(function(){var as=document.createElement('script'); as.type='text/javascript'; as.async=true; as.src="https://certify-js.alexametrics.com/atrk.js"; var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s);})(); </script>
+
 </head>
 
 <body>
