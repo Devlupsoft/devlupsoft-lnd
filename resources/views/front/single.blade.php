@@ -318,7 +318,7 @@
                 <div class="info">
                   <h3>Quick Enroll</h3>
                   <img src="{{ asset('front/img/QR-devlupsoft.jpg') }}" width="250px" />
-                  <p>Any query or suggestions, Please feal free to contact us.</p>
+                  <p>Any query or suggestions, Please feel free to contact us.</p>
 
                   <div class="info-item d-flex">
                     <i class="bi bi-geo-alt flex-shrink-0"></i>
