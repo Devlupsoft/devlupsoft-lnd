@@ -59,9 +59,10 @@
       }
     })
     .then(data => {
-        console.log('data>>>>>>', data);
       thisForm.querySelector('.loading').classList.remove('d-block');
-      if (data.status.trim() == '1') {
+      if (data.trim() == 'OK') {
+        // document.getElementById('quick-connect').style.display = 'none';
+        document.getElementById('enroll-now').style.display = 'none';
         thisForm.querySelector('.sent-message').classList.add('d-block');
         thisForm.reset();
       } else {

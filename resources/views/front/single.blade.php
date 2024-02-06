@@ -62,11 +62,11 @@
     <br/>
     <br/>
     <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
-      <img src="{{ asset('front/img/devlupsoft.jpg') }}" style="width: 150px; border-radius: 25px" class="img-fluid" alt="Devlupsoft Technologies">
+      <img src="{{ asset('front/img/devlupsoft.jpg') }}" style="width: 150px; border-radius: 25px" class="img-fluid" alt="Devlupsoft L&D">
       <h2>Welcome to <span>Devlupsoft L&D</span></h2>
-      <p>The learning and development program (L&D) at Devlupsoft would be a combination of lectures, hands-on coding exercises, real-world projects, and mentorship to ensure a well-rounded and practical understanding of full stack development. It should empower individuals to not only write code but also design scalable and maintainable applications while adhering to industry best practices.</p>
+      <p>The learning and development program at Devlupsoft L&D would be a combination of lectures, hands-on coding exercises, real-world projects, and mentorship to ensure a well-rounded and practical understanding of full stack development. It should empower individuals to not only write code but also design scalable and maintainable applications while adhering to industry best practices.</p>
       <div class="d-flex">
-        <a href="#contact" class="btn-get-started scrollto">Get Started</a>
+        <a href="#pricing" class="btn-get-started scrollto">Enroll Now</a>
         <a href="https://www.youtube.com/watch?v=DvKDBH7bwbk" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
       </div>
     </div>
@@ -140,9 +140,8 @@
               </ul>
 
               <div class="text-center mt-auto">
-                <a href="#" class="buy-btn">Buy Now</a>
+                <a href="https://chat.whatsapp.com/H8vxsW7z27s6GXEuuSkFsW" class="buy-btn">Buy Now</a>
               </div>
-
             </div>
           </div><!-- End Pricing Item -->
 
@@ -163,7 +162,7 @@
               </ul>
 
               <div class="text-center mt-auto">
-                <a href="#" class="buy-btn">Buy Now</a>
+                <a href="https://chat.whatsapp.com/E49Z90bJom9FCwe5s18UIK" class="buy-btn">Buy Now</a>
               </div>
 
             </div>
@@ -186,7 +185,7 @@
               </ul>
 
               <div class="text-center mt-auto">
-                <a href="#" class="buy-btn">Buy Now</a>
+                <a href="https://chat.whatsapp.com/Ly0Fmqkgqe1BdczQCdcRf6" class="buy-btn">Buy Now</a>
               </div>
 
             </div>
@@ -351,30 +350,32 @@
                 {{-- Change are required for lead generation --}}
                 <form action="{{ url('quick-connect') }}" method="post" role="form" class="php-email-form">
                     <input type="hidden" name="_token" value="{{ csrf_token() }}" />
-                  <div class="row">
-                    <div class="col-md-6 form-group">
-                      <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                    <div id='quick-connect'>
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-md-6 form-group mt-3 mt-md-0">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="form-group mt-3">
+                            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Phone" required>
+                        </div>
+                        {{-- <div class="form-group mt-3">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                        </div> --}}
+                        <div class="form-group mt-3">
+                            <textarea class="form-control" name="message" placeholder="Message (if any)"></textarea>
+                        </div>
                     </div>
-                    <div class="col-md-6 form-group mt-3 mt-md-0">
-                      <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                    </div>
-                  </div>
-                  <div class="form-group mt-3">
-                    <input type="tel" class="form-control" name="phone" id="phone" placeholder="Phone" required>
-                  </div>
-                  {{-- <div class="form-group mt-3">
-                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                  </div> --}}
-                  <div class="form-group mt-3">
-                    <textarea class="form-control" name="message" placeholder="Message (if any)"></textarea>
-                  </div>
                   <div class="my-3">
                     <div class="loading">Loading</div>
                     <div class="error-message"></div>
                     {{-- <div class="sent-message">Your message has been sent. Thank you!</div> --}}
-                    <div class="sent-message">Please scan whatsApp group for prompt updates. Thank you!</div>
+                    <div class="sent-message"><i class="bi bi-box-arrow-in-left"></i>Please scan whatsApp group QR for updates. Thank you!</div>
                   </div>
-                  <div class="text-center"><button type="submit">Enroll Now</button></div>
+                  <div class="text-center"><button type="submit" id="enroll-now">Enroll Now</button></div>
                 </form>
               </div><!-- End Contact Form -->
 
@@ -435,12 +436,12 @@
         <div class="d-flex flex-column align-items-center align-items-lg-start">
           <div class="copyright">
             &copy; Copyright <strong>
-                <span>Devlupsoft Technologies (CIN: U74999DL2016PTC308987)</span>
-            </strong>. All Rights Reserved
+                <span>Devlupsoft L&D</span>
+            </strong>.
           </div>
-          <div class="credits">
-            <a href="https://www.devlupsoft.com/">Devlupsoft Technologies Private Limited</a>
-          </div>
+          {{-- <div class="credits">
+            <a href="https://lnd.devlupsoft.com/">Devlupsoft L&D</a>
+          </div> --}}
         </div>
 
         {{-- <div class="social-links order-first order-lg-last mb-3 mb-lg-0">

@@ -1,7 +1,7 @@
 {
     "name": "Devlupsoft/L&D",
-    "description": "An initiative from the Devlupsoft Technologies L&D department for providing job oriented full stack web & mobile app development training..",
-    "keywords": "Learning & Development from Devlupsoft Technologies",
+    "description": "An initiative from the Devlupsoft L&D department for providing job oriented full stack web & mobile app development training..",
+    "keywords": "Learning, Development, Learning & Development, Full Stack Development, Software Development, Training, Course.",
     "license": "MIT",
     "type": "project",
     "require": {
