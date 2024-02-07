@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Helpers\Qs;
 use App\Repositories\UserRepo;
 use Illuminate\Http\Request;
+use DB;
 
 class HomeController extends Controller
 {
@@ -27,20 +28,34 @@ class HomeController extends Controller
 
     public function enroll(Request $request)
     {
-        // validate input
-        // $this->validate($request,[
-        //     'phone'=>'required|max:8',
-        //     'name'=>'required',
-        //     'email'=>'required'
-        //  ]);
+        try{
+            // validate input
+            $this->validate($request,[
+                'phone'=>'required|max:15',
+                'name'=>'required',
+                'email'=>'required'
+            ]);
 
-        // save to database
+            $data = [
+                'name' => $request->name,
+                'email' => $request->email,
+                'phone' => $request->phone,
+                'message' => $request->message,
+            ];
 
-        // send mail queue
+            // save to database
+            $lead = DB::table('leads')->insert($data);
 
-        // exit
-        // exit(json_encode(['status'=>0]));
-        exit('OK');
+            // send mail
+            if (!empty($lead)) {
+                // send mail in queue
+            }
+
+            // exit
+            exit('OK');
+        } catch (\Exception $e) {
+            exit('NOT OK');
+        }
 
     }
 
@@ -49,6 +64,7 @@ class HomeController extends Controller
         $data['app_name'] = config('app.name');
         $data['app_url'] = config('app.url');
         $data['contact_phone'] = Qs::getSetting('phone');
+        $data['contact_email'] = Qs::getSetting('system_email');
         return view('pages.other.privacy_policy', $data);
     }
 
@@ -57,6 +73,7 @@ class HomeController extends Controller
         $data['app_name'] = config('app.name');
         $data['app_url'] = config('app.url');
         $data['contact_phone'] = Qs::getSetting('phone');
+        $data['contact_email'] = Qs::getSetting('system_email');
         return view('pages.other.terms_of_use', $data);
     }
 

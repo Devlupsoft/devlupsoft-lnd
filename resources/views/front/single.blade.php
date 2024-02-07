@@ -130,7 +130,7 @@
 
               <div class="pricing-header">
                 <h3>Basic Plan</h3>
-                <h4><sup>₹</sup>4999<span> / month</span></h4>
+                <h4><sup>₹</sup>1999<span> / month</span></h4>
               </div>
 
               <ul>
@@ -142,7 +142,7 @@
               </ul>
 
               <div class="text-center mt-auto">
-                <a href="https://chat.whatsapp.com/H8vxsW7z27s6GXEuuSkFsW" class="buy-btn">Buy Now</a>
+                <a target="_blank" href="https://chat.whatsapp.com/H8vxsW7z27s6GXEuuSkFsW" class="buy-btn">Join Now</a>
               </div>
             </div>
           </div><!-- End Pricing Item -->
@@ -152,7 +152,7 @@
 
               <div class="pricing-header">
                 <h3>Corporate Plan</h3>
-                <h4><sup>₹</sup>7999<span> / user</span><span> / month</span></h4>
+                <h4><sup>₹</sup>4999<span> / user</span><span> / month</span></h4>
               </div>
 
               <ul>
@@ -164,7 +164,7 @@
               </ul>
 
               <div class="text-center mt-auto">
-                <a href="https://chat.whatsapp.com/E49Z90bJom9FCwe5s18UIK" class="buy-btn">Buy Now</a>
+                <a target="_blank" href="https://chat.whatsapp.com/E49Z90bJom9FCwe5s18UIK" class="buy-btn">Join Now</a>
               </div>
 
             </div>
@@ -175,7 +175,7 @@
 
               <div class="pricing-header">
                 <h3>Developer Plan</h3>
-                <h4><sup>₹</sup>9999<span> / month</span></h4>
+                <h4><sup>₹</sup>7999<span> / month</span></h4>
               </div>
 
               <ul>
@@ -187,7 +187,7 @@
               </ul>
 
               <div class="text-center mt-auto">
-                <a href="https://chat.whatsapp.com/Ly0Fmqkgqe1BdczQCdcRf6" class="buy-btn">Buy Now</a>
+                <a target="_blank" href="https://chat.whatsapp.com/Ly0Fmqkgqe1BdczQCdcRf6" class="buy-btn">Join Now</a>
               </div>
 
             </div>
@@ -317,14 +317,16 @@
 
                 <div class="info">
                   <h3>Quick Enroll</h3>
-                  <img src="{{ asset('front/img/QR-devlupsoft.jpg') }}" width="250px" />
+                  <a target="_blank" href="https://chat.whatsapp.com/JT0c92NWdknAqsYJThjvaP">
+                      <img src="{{ asset('front/img/QR-devlupsoft.jpg') }}" width="250px" />
+                  </a>
                   <p>Any query or suggestions, Please feel free to contact us.</p>
 
                   <div class="info-item d-flex">
                     <i class="bi bi-geo-alt flex-shrink-0"></i>
                     <div>
                       <h4>Location:</h4>
-                      <p>Sec - 5, Rohini, Delhi, IN - 110085</p>
+                      <p>Noida UP, India 110085</p>
                     </div>
                   </div><!-- End Info Item -->
 
@@ -370,12 +372,17 @@
                         <div class="form-group mt-3">
                             <textarea class="form-control" name="message" placeholder="Message (if any)"></textarea>
                         </div>
+                        <div style="display: none">
+                            <a href="#contact" id="enroll-now-qr">QR</a>
+                        </div>
                     </div>
                   <div class="my-3">
                     <div class="loading">Loading</div>
                     <div class="error-message"></div>
                     {{-- <div class="sent-message">Your message has been sent. Thank you!</div> --}}
-                    <div class="sent-message"><i class="bi bi-box-arrow-in-left"></i>Please scan whatsApp group QR for updates. Thank you!</div>
+                    <div class="sent-message"><i class="bi bi-box-arrow-in-left"></i>
+                        Join our WhatsApp group for more updates. Scan Now!
+                    </div>
                   </div>
                   <div class="text-center"><button type="submit" id="enroll-now">Enroll Now</button></div>
                 </form>

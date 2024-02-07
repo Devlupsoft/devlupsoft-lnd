@@ -62,9 +62,12 @@
       thisForm.querySelector('.loading').classList.remove('d-block');
       if (data.trim() == 'OK') {
         // document.getElementById('quick-connect').style.display = 'none';
-        document.getElementById('enroll-now').style.display = 'none';
+        // document.getElementById('enroll-now').style.display = 'none';
         thisForm.querySelector('.sent-message').classList.add('d-block');
         thisForm.reset();
+        setTimeout(() => {
+            document.getElementById('enroll-now-qr').click();
+        }, 1000)
       } else {
         throw new Error(data ? data : 'Form submission failed and no error message returned from: ' + action);
       }

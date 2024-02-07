@@ -9,6 +9,9 @@
     <meta name="author" content="Devlupsoft L&D">
 
     <title> @yield('page_title') | {{ config('app.name') }} </title>
+    <!-- Favicons -->
+    <link href="http://realestate.dvsft.com/front/img/favicon.png" rel="icon">
+    <link href="http://realestate.dvsft.com/front/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     @include('partials.inc_top')
 </head>

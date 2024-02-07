@@ -13,7 +13,7 @@
                 <div class="card-body">
                     <div class="row">
                         <div style="font-size: 16px;" class="col-md-10 offset-md-1">
-                            <p>Last modified: November 4, 2019</p>
+                            <p>Last modified: January 7, 2024</p>
 
                             <h4 class="font-weight-semibold">Introduction</h4>
 
@@ -132,7 +132,7 @@
 
                             <h4 class="font-weight-semibold">Contact Information</h4>
 
-                            <p>To ask questions or comment about this privacy policy and our privacy practices, please call {{ $contact_phone }}</p>
+                            <p>To ask questions or comment about this privacy policy and our privacy practices, please write us at {{ $contact_email }}</p>
                         </div>
                     </div>
                 </div>
