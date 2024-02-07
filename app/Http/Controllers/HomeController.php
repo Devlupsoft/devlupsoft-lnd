@@ -54,6 +54,7 @@ class HomeController extends Controller
             // exit
             exit('OK');
         } catch (\Exception $e) {
+            print_r($e->getMessage());
             exit('NOT OK');
         }
 
