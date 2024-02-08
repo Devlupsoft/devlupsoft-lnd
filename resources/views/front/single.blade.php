@@ -447,7 +447,7 @@
             </strong>.
           </div>
           <div class="credits" >
-            <a style="color: #3b5380, text-decoration: none" href="">Designed by BootstrapMade</a>
+            <a style="color: #3b5380 !important; text-decoration: none !important" href="">Designed by BootstrapMade</a>
           </div>
         </div>
 
