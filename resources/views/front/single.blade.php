@@ -324,7 +324,7 @@
                     <i class="bi bi-geo-alt flex-shrink-0"></i>
                     <div>
                       <h4>Location:</h4>
-                      <p>Noida UP, India 110085</p>
+                      <p>Delhi, India 110085</p>
                     </div>
                   </div><!-- End Info Item -->
 
@@ -404,7 +404,7 @@
             <div class="footer-info">
               <h3>Devlupsoft L&D</h3>
               <p>
-                Noida UP, India, 110085<br><br>
+                Delhi, India, 110085<br><br>
                 <strong>Phone:</strong> +91 9693087681<br>
                 <strong>Email:</strong> lnd@devlupsoft.com<br>
               </p>
@@ -446,9 +446,9 @@
                 <span>Devlupsoft L&D</span>
             </strong>.
           </div>
-          <div class="credits" >
-            <a style="color: #3b5380 !important; text-decoration: none !important" href="">Designed by BootstrapMade</a>
-          </div>
+          {{-- <div class="credits" >
+            <a style="color: #3b5380 !important; text-decoration: none !important" href="/">Designed by BootstrapMade</a>
+          </div> --}}
         </div>
 
         {{-- <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
