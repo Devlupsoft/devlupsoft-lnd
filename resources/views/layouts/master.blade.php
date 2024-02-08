@@ -8,7 +8,9 @@
     <meta id="csrf-token" name="csrf-token" content="{{ csrf_token() }}">
     <meta name="author" content="Devlupsoft L&D">
 
-    <title> @yield('page_title') | {{ config('app.name') }} </title>
+    {{-- <title> @yield('page_title') | {{ config('app.name') }} </title> --}}
+    @include('partials.login.meta')
+
     <!-- Favicons -->
     <link href="http://realestate.dvsft.com/front/img/favicon.png" rel="icon">
     <link href="http://realestate.dvsft.com/front/img/apple-touch-icon.png" rel="apple-touch-icon">

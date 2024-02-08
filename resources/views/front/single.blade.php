@@ -5,9 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>{{ config('app.name', 'Laravel') }}</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  @include('partials.login.meta')
 
   <!-- Favicons -->
   <link href="{{ asset('front/img/favicon.png') }}" rel="icon">
@@ -448,9 +446,9 @@
                 <span>Devlupsoft L&D</span>
             </strong>.
           </div>
-          {{-- <div class="credits">
-            <a href="https://lnd.devlupsoft.com/">Devlupsoft L&D</a>
-          </div> --}}
+          <div class="credits" >
+            <a style="color: #3b5380, text-decoration: none" href="">Designed by BootstrapMade</a>
+          </div>
         </div>
 
         {{-- <div class="social-links order-first order-lg-last mb-3 mb-lg-0">

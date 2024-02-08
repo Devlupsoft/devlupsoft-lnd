@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta name="robots" content="none" />
 
-    <title>{{ config('app.name', 'Devlupsoft L&D') }}</title>
+    <title>{{ 'Devlupsoft L&D Login' }}</title>
     <!-- Favicons -->
     <link href="http://realestate.dvsft.com/front/img/favicon.png" rel="icon">
     <link href="http://realestate.dvsft.com/front/img/apple-touch-icon.png" rel="apple-touch-icon">
