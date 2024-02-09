@@ -82,7 +82,7 @@
 
         <div class="section-header">
           <h2>Our Trainings</h2>
-          <p>Unlock the full spectrum of expertise in our comprehensive Full Stack Training Program at Devlupsoft. Dive deep into front-end and back-end development, master databases, deploy on the cloud, and gain the skills needed for end-to-end web application development. </p>
+          <p>Unlock the full spectrum of expertise in our comprehensive Full Stack Training Program at Devlupsoft L&D. Dive deep into front-end and back-end development, master databases, deploy on the cloud, and gain the skills needed for end-to-end web application development. </p>
         </div>
 
         <div class="row gy-5">
@@ -116,7 +116,7 @@
 
         <div class="section-header">
           <h2>Our Pricing</h2>
-          <p>Seize the opportunity to revolutionize your skills in our Full Stack Training Program at Devlupsoft.
+          <p>Seize the opportunity to revolutionize your skills in our Full Stack Training Program at Devlupsoft L&D.
             Enroll now for a transformative learning experience, select a plan as per you requirements.
             Don't miss out on this chance to elevate your career—take the first step today!</p>
         </div>
@@ -140,7 +140,7 @@
               </ul>
 
               <div class="text-center mt-auto">
-                <a target="_blank" href="https://chat.whatsapp.com/H8vxsW7z27s6GXEuuSkFsW" class="buy-btn">Join Now</a>
+                <a target="_blank" href="https://chat.whatsapp.com/H8vxsW7z27s6GXEuuSkFsW" class="buy-btn">Start free trial</a>
               </div>
             </div>
           </div><!-- End Pricing Item -->
@@ -162,7 +162,7 @@
               </ul>
 
               <div class="text-center mt-auto">
-                <a target="_blank" href="https://chat.whatsapp.com/E49Z90bJom9FCwe5s18UIK" class="buy-btn">Join Now</a>
+                <a target="_blank" href="https://chat.whatsapp.com/E49Z90bJom9FCwe5s18UIK" class="buy-btn">Start free trial</a>
               </div>
 
             </div>
@@ -185,7 +185,7 @@
               </ul>
 
               <div class="text-center mt-auto">
-                <a target="_blank" href="https://chat.whatsapp.com/Ly0Fmqkgqe1BdczQCdcRf6" class="buy-btn">Join Now</a>
+                <a target="_blank" href="https://chat.whatsapp.com/Ly0Fmqkgqe1BdczQCdcRf6" class="buy-btn">Start free trial</a>
               </div>
 
             </div>
@@ -301,7 +301,7 @@
 
         <div class="section-header">
           <h2>Enroll Now</h2>
-          <p>Embark on a transformative journey in the world of Full Stack Development with Devlupsoft's cutting-edge Learning and Development program—enroll now to grasp the keys to unlocking your potential in the dynamic realm of technology!.</p>
+          <p>Embark on a transformative journey in the world of Full Stack Development with Devlupsoft L&D's cutting-edge Learning and Development program—enroll now to grasp the keys to unlocking your potential in the dynamic realm of technology!.</p>
         </div>
 
       </div>
